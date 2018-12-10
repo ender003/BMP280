@@ -67,11 +67,11 @@ while True:
 	#Getting corrected pressure for current pressure at sealevel
 	p10 = sensor.read_sealevel_pressure(altitude_m=330.0) 	#Takes new messurement so the sensor_data might have changed
 	
-        out=(str(time.time()-st) + ',' + str(t1) + ',' + str(p1) + ',' + str(p10) + '\n')
-        file.write(out)
-        print(out)
-        time.sleep(30)
-        if time.time() > timeout:
-                file.close()
-                break
+	out=(str(time.time()-st) + ',' + str(t1) + ',' + str(p1) + ',' + str(p10) + '\n')
+	file.write(out)
+	print(out)
+	time.sleep(30)
+	if time.time() > timeout:
+	file.close()
+break
 
