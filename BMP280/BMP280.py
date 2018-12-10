@@ -173,7 +173,7 @@ class BMP280(object):
                 	time.sleep(0.014)
 		elif self._modep == BMP280_HIGHRES:
 			time.sleep(0.023)
-            	elif self._modep == BMP280_ULTRAHIGHRES:
+		elif self._modep == BMP280_ULTRAHIGHRES:
                 	time.sleep(0.044)
 		else:
 			time.sleep(0.008)
