@@ -1,9 +1,17 @@
 Python BMP280
 ===================
 
+This was forked from https://github.com/TomFoerster/BMP280
+
+I made updates to get rid of warnings about incompatibility when running under python3 in the Thonny environment
+on Raspberry Pi. I'm a beginner and the warnings were confusing at first. Hopefully this helps other beginners, too.
+-ender003
+
+===================
+
 Python library for accessing temperature and pressure measurments of BMP280 chip
 
-All modes of oversampling for temperature and pressure aswell as filter settings are available via this library.
+All modes of oversampling for temperature and pressure as well as filter settings are available via this library.
 
 Tested with Adafruit BMP280 temperature pressure sensors: https://www.adafruit.com/products/2651
 
